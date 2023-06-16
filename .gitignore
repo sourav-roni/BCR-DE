@@ -1,0 +1,16 @@
+*.ipynb
+.ipynb_checkpoints
+/data
+*.pt
+*.pyc
+__pycache__/
+*/*.pyc
+*.pth
+.DS_Store
+*.npy 
+*.pdf
+*.dot
+*.png
+*.csv
+/BCR_DE_Results*
+/BCR_DE/Result

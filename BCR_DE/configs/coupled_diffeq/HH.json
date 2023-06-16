@@ -1,0 +1,30 @@
+{
+	"seq_length": 20000,
+	"couple_type": "HH",
+
+	"seed": 0,
+	"exp": "Coupled",
+
+	"wave": "db2",
+	"dim_D": 2,
+	"dim_D_out": 3,
+	"dim_d": 3,
+	"dim_k": 3,
+	"num_classes": 1,
+	"nonlinearity": "relu",
+	"n_levels": 8,
+	"K_dense": 4,
+	"K_LC": 4,
+	"nb": 3,
+	"num_sparse_LC": 6,
+	"interpol": "linear",
+	"use_cheap_sparse_LC": true,
+
+	"train_bs": 64,
+	"valid_bs": 256,
+	"test_bs": 256,
+	"epoch": 100,
+	"lr": 0.01,
+	"wd": 0.0001,
+	"model_pred_save_freq": 1
+}
