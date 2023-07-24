@@ -1,6 +1,13 @@
 # BCR_DE
 Code for ["Controlled Differential Equations on Long Sequences via Non-standard Wavelets"](https://openreview.net/pdf?id=bm2qVX0h09) [(ICML 23)](https://icml.cc/)
 
+[Poster](./asset/BCRDE_ICML_poster.pdf)
+
+[Slide](./asset/BCRDE_slide.pdf)
+
+# Framework
+![](./asset/BCRDE.jpeg)
+
 
 # Installation
 The code is written to be compatible with Python3.6+ . We outlay steps to create the required environment and install dependencies, using Anaconda and pip. Please refer to their installations if you already don't have them.
