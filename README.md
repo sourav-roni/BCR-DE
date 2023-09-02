@@ -37,3 +37,16 @@ The data for the [Hodgkin–Huxley model](https://www.ncbi.nlm.nih.gov/pmc/artic
 
 # Citation
 If you find our paper/code useful, please cite our [paper](https://openreview.net/pdf?id=bm2qVX0h09) at ICML 23
+
+```
+@InProceedings{pmlr-v202-pal23b,
+  title = 	 {Controlled Differential Equations on Long Sequences via Non-standard Wavelets},
+  author =       {Pal, Sourav and Zeng, Zhanpeng and Ravi, Sathya N. and Singh, Vikas},
+  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+  pages = 	 {26820--26836},
+  year = 	 {2023},
+  volume = 	 {202},
+  series = 	 {Proceedings of Machine Learning Research},
+  publisher =    {PMLR},
+}
+```
