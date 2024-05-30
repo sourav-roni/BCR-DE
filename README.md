@@ -1,9 +1,7 @@
-# BCR_DE
-Code for ["Controlled Differential Equations on Long Sequences via Non-standard Wavelets"](https://openreview.net/pdf?id=bm2qVX0h09) [(ICML 23)](https://icml.cc/)
+# Controlled Differential Equations on Long Sequences via Non-standard Wavelets (ICML 23)
+[[Paper]](https://proceedings.mlr.press/v202/pal23b.html) [[Poster]](./asset/BCRDE_ICML_poster.pdf) [[Slide]](./asset/BCRDE_slide.pdf)
 
-[Poster](./asset/BCRDE_ICML_poster.pdf)
-
-[Slide](./asset/BCRDE_slide.pdf)
+#### Sourav Pal, Zhanpeng Zeng, Sathya N. Ravi, Vikas Singh
 
 # Framework
 ![](./asset/BCRDE.jpeg)
