@@ -28,6 +28,9 @@ All code resides in the folder BCR_DE, including model files, scripts to run the
 
 We propose a variant of [locally connected convolution](https://keras.io/api/layers/locally_connected_layers/) in our paper termed as [Partially Unshared Convolution (PUC)](./BCR_DE/BCR_DE_model.py#L84) layer which helps in the paremeterization required for BCR-DE. We provide two implementations including one which is sufficiently faster to use via einops. Note that these classes are written using PyTorch and can be used as plug and play in relevant deep learning models, the code for which is present in the [BCR-DE model file](./BCR_DE/BCR_DE_model.py).
 
+# Update
+We have included a jax implementation for the model inside the folder [BCR_DE_JAX](https://github.com/sourav-roni/BCR-DE/tree/main/BCR_DE_JAX)
+
 # Data
 Please find the datasets used for experiments reported in the paper here [Google Drive](https://drive.google.com/file/d/1CFlnfC9CugfiAInKLHihjdJkyav6q80-/view?usp=sharing). These include data from [BIDMC32 dataset](https://arxiv.org/abs/2006.10996), [Eigenworm dataset](https://link.springer.com/article/10.1007/s10618-016-0483-9), and [TSER](http://tseregression.org/), we include it here for the ease of use. Please download the folder, unzip it and place it parallel to the BCR_DE folder. This will allow to use the code out of the box, else you will need to provide the specific paths to the data while running the experiments.
 
