@@ -1,0 +1,31 @@
+{
+	"seq_length": 17984,
+	"data_path": "../data/",
+
+	"seed": 2025,
+	"exp": "Eigen_re",
+
+	"noise_model": false,
+	"wave": "db2",
+	"dim_D": 7,
+	"dim_D_out": 1,
+	"dim_d": 3,
+	"dim_k": 3,
+	"num_classes": 5,
+	"nonlinearity": "tanh",
+	"n_levels": 8,
+	"K_dense": 1,
+	"K_LC": 4,
+	"nb": 3,
+	"num_sparse_LC": 6,
+	"interpol": "spline",
+	"use_cheap_sparse_LC": true,
+
+	"train_bs": 64,
+	"valid_bs": 256,
+	"test_bs": 256,
+	"epoch": 200,
+	"lr": 0.01,
+	"wd": 0.0001,
+	"model_pred_save_freq": 10
+}
